@@ -1,6 +1,10 @@
 .ideas {
   padding: 20px 44px 0 20px;
 
+  @include small-tablet {
+    padding: 15px 15px;
+  }
+
   &__stats {
     display: flex;
     justify-content: end;
@@ -14,11 +18,23 @@
       align-items: center;
       border-radius: 50%;
       background: linear-gradient(to bottom, #bfdb9180, #bfdb91);
+
+      @include small-tablet{
+        display: none;
+      }
     }
 
     &-ideas {
       display: flex;
       margin-right: 61px;
+
+      @include tablet {
+        margin-right: 20px;
+      }
+
+      @include mobile{
+       margin-right: 10px;
+      }
     }
 
     &-info {
@@ -33,6 +49,10 @@
         font-weight: 700;
         line-height: 25px;
         letter-spacing: -0.32px;
+
+        @include small-mobile{
+          font-size: 12px;
+        }
       }
 
       &--num {
@@ -41,6 +61,7 @@
         font-weight: 700;
         line-height: 30px;
         letter-spacing: -0.36px;
+        text-align: center;
       }
     }
 
@@ -63,6 +84,16 @@
         opacity: .7;
       }
 
+      @include small-tablet{
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      @include mobile {
+        padding: 0px 10px 0px;
+        height: 40px;
+        align-self: center;
+      }
     }
   }
 
@@ -76,9 +107,20 @@
     background: #f8f9fb;
     box-shadow: 2px 1px 5px 0px rgba(0, 0, 0, 0.15);
     transition: all .3s;
+    align-items: center;
 
     &:hover{
         background: #F9FCF4;
+    }
+
+    @include small-tablet {
+      padding: 10px 10px;
+      margin-top: 15px;
+    }
+
+    @include mobile {
+      flex-direction: column;
+      align-items: start;
     }
 
     &-text {
@@ -87,6 +129,15 @@
       display: flex;
       flex-direction: column;
       gap: 10px;
+
+      @include small-tablet {
+        margin-left: 10px;
+      }
+
+      @include mobile{
+        margin-left: 0;
+        margin-top: 10px;
+      }
 
       &-title {
         color: #000;
@@ -98,6 +149,7 @@
         color: #1d2433;
         line-height: 20px;
         letter-spacing: -0.28px;
+        font-size: 12px;
       }
     }
   }
@@ -106,12 +158,16 @@
     display: flex;
     gap: 10px;
 
+    
+
     &--styles {
       transform: translateY(3px);
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 55px;
+      min-width: 55px;
+      max-width: auto;
+      padding: 1px 1px;
       height: 22px;
       border-radius: 100px;
       background: #eaeaea;
@@ -127,8 +183,18 @@
   }
   &__metrics {
     margin-left: auto;
+    padding-left: 10px;
     display: flex;
     flex-direction: column;
+
+    @include mobile{
+      gap: 5px;
+      margin-left: 0;
+      padding-left: 0;
+      margin-top: 5px;
+    }
+
+
     &-top {
       align-self: end;
       display: flex;
@@ -140,6 +206,10 @@
       height: 70px;
       border-radius: 4px;
       border: 1px solid #dae1eb;
+
+      @include mobile {
+        align-self: flex-start;
+      }
 
       &-num {
         color: #4e5979;
@@ -155,6 +225,10 @@
       gap: 15px;
       color: #808080;
       letter-spacing: 0.39px;
+
+      @include mobile{
+        margin-top: 5px;
+      }
     }
   }
 }

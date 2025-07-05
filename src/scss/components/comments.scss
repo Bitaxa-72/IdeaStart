@@ -1,0 +1,152 @@
+.comments__form {
+  border-radius: 10px;
+  box-shadow: 2px 1px 5px 0px rgba(0, 0, 0, 0.15);
+  padding: 30px 40px;
+  width: 720px;
+
+  & textarea {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #eaeaea;
+    padding: 10px;
+  }
+
+  @include tablet {
+    width: 680px;
+  }
+
+  @include small-tablet {
+    width: 500px;
+  }
+
+  @include mobile {
+      width: 290px;
+    }
+
+  &-actions{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+
+    &-cancel{
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 20px;
+        border-radius: 5px;
+        background:#EAEAEA;
+    }
+
+    &-send{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 20px;
+        border-radius: 5px;
+        background: #BFDB91;
+        gap: 10px;
+    }
+  }
+}
+
+.comments__container{
+    width: 720px;
+
+    @include tablet{
+        width: 680px;
+    }
+    @include small-tablet{
+        width: 500px;
+    }
+    @include mobile {
+      width: 290px;
+    }
+}
+
+.comment {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 12px 0;
+  background: #fff;
+  font-family: sans-serif;
+}
+
+.comment__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.comment__avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #d4f0c0;
+  margin-right: 10px;
+}
+
+.comment__username {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.comment__date {
+  font-size: 12px;
+  color: #888;
+}
+
+.comment__menu {
+  margin-left: auto;
+  cursor: pointer;
+  font-size: 18px;
+  color: #888;
+}
+
+.comment__text {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.comment__footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.comment__reactions span {
+  margin-right: 10px;
+}
+
+.comment__actions {
+  display: flex;
+  gap: 12px;
+}
+
+.comment__action {
+  background: none;
+  border: none;
+  color: #2a79ff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+}
+
+.comment.reply {
+  margin-top: 12px;
+  margin-left: 30px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+}
+
+.comment__meta {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+.comment__reply-author {
+  font-weight: bold;
+}

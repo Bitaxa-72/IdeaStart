@@ -1,0 +1,117 @@
+<section class="inputList">
+    <div class="inputList__top">
+        <div class="inputList__info">
+            <h3 class="inputList__title">Idea name</h3>
+            <span class="inputList__addDate text-p-medium">Add date:
+                <span class="inputList__Date">19.04.25</span>
+            </span>
+        </div>
+        <span class="inputList__status text-p-small">Not Published</span>
+        <button class="ideas__stats-btn signInInput text-p-small">
+            Sign In
+        </button>
+    </div>
+    <form class="idea-form" method="post" enctype="multipart/form-data">
+    <div class="inputList__form">
+        <div class="inputList__container">
+            <div class="inputList__item">
+                <label class="inputList__item-label text-p-small" for="idea-name">Idea name</label>
+                <input class="inputList__item-input" type="text" id="idea-name" name="idea_name" placeholder="Text" />
+            </div>
+            <div class="inputList__item">
+                <label class="inputList__item-input">
+                    <span class="file-placeholder">File attach</span>
+                    <input type="file" id="idea-image" class="file-input" name="idea_image" />
+                </label>
+            </div>
+            <div class="inputList__item">
+                <label class="inputList__item-label text-p-small" for="idea-image">Current status</label>
+                <select class="inputList__item-input file-placeholder" id="idea-status" name="idea_status"
+                    placeholder="Сhoice from ready-made solutions">
+                    <option value="">Сhoice from ready-made solutions</option>
+                    <option value="ready">Testing\Validating</option>
+                    <option value="ready">Building MVP</option>
+                    <option value="ready">Launched</option>
+                    <option value="ready">Search team</option>
+                    <option value="ready">Search Investment</option>
+                </select>
+            </div>
+            <div class="inputList__item">
+                <label class="inputList__item-label text-p-small" for="idea-descr">Main description</label>
+                <input class="inputList__item-input" type="text" id="idea-descr" name="idea_descr" placeholder="Text" />
+            </div>
+            <div class="inputList__item">
+                <label class="inputList__item-label text-p-small" for="idea-description">General description</label>
+                <textarea class="inputList__item-input input-long" id="idea-description" name="idea_description"
+                    placeholder="Long text"></textarea>
+            </div>
+            <div class="inputList__item">
+                <label class="inputList__item-label text-p-small" for="idea-audience">Your audience</label>
+                <textarea class="inputList__item-input input-long" id="idea-audience" name="idea_audience"
+                    placeholder="Long text"></textarea>
+            </div>
+            <div class="inputList__item">
+                <label class="inputList__item-label text-p-small" for="idea-competitors">Your competitors</label>
+                <textarea class="inputList__item-input input-long" id="idea-competitors" name="idea_competitors"
+                    placeholder="Long text"></textarea>
+            </div>
+            <div class="inputList__item">
+                <label class="inputList__item-label text-p-small" for="idea-problem">What problem is solved?</label>
+                <textarea class="inputList__item-input input-long" id="idea-problem" name="idea_problem"
+                    placeholder="Long text"></textarea>
+            </div>
+            <div class="inputList__item">
+                <label class="inputList__item-label text-p-small" for="idea-proposition">Value proposition and
+                    USP</label>
+                <textarea class="inputList__item-input input-long" id="idea-proposition" name="idea_proposition"
+                    placeholder="Long text"></textarea>
+            </div>
+            <div class="inputList__item">
+                <label class="inputList__item-label text-p-small" for="idea-marketing">Sales and marketing plan</label>
+                <textarea class="inputList__item-input input-long" id="idea-marketing" name="idea_marketing"
+                    placeholder="Long text"></textarea>
+            </div>
+            <div class="inputList__item">
+                <label class="inputList__item-label text-p-small" for="idea-support">What support is needed.</label>
+                <textarea class="inputList__item-input input-long" id="idea-support" name="idea_support"
+                    placeholder="Long text"></textarea>
+            </div>
+            <div class="inputList__item">
+                <label class="inputList__item-label text-p-small" for="idea-url">Link to the site/APP/prototype </label>
+                <input class="inputList__item-input" type="url" id="idea-url" name="idea_url" placeholder="URL" />
+            </div>
+            <div class="inputList__item">
+                <label class="inputList__item-label text-p-small" for="idea-contacts">Your contacts</label>
+                <input class="inputList__item-input" type="url" id="idea-contacts" name="idea_contacts"
+                    placeholder="URL" />
+            </div>
+            <div class="inputList__item">
+                <label class="inputList__item-label text-p-small" for="idea-tag">Tags</label>
+                <div class="inputList__item-input inputList__item-tags" id="idea-tag">
+                    <input type="text" class="tag-input-field" placeholder="Max 5" name="idea_tags" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="inputList__imgGallery">
+        <div class="imgGallery__container">
+            <label for="imageUploadInput" class="inputList__imgGallery-label text-p-small">Upload Images (up to 5)</label>
+            <div class="upload-box" id="uploadBox">
+                <input type="file" id="imageUploadInput" accept="image/*" multiple hidden />
+                <div class="upload-placeholder">
+                    <div class="upload-icon">+</div>
+                    <div class="upload-text">
+                        <p>Click to upload images (0/5)</p>
+                        <small>PNG, JPG, GIF up to 10MB each</small>
+                    </div>
+                </div>
+                <div class="image-preview-list"></div>
+            </div>
+        </div>
+    </div>
+    </form>
+    <div class="inputList__bot">
+            <button name="idea_action" value="draft" class="inputList__SaveDraft">Save Draft</button>
+            <button name="idea_action" value="publish" class="inputList__Publish">Publish</button>
+    </div>
+</section>

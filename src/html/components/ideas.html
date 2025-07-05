@@ -68,8 +68,11 @@
             Sign In
         </button>
     </div>
+
+
+
     <a href="/postIdea" class="ideas__post">
-        <svg xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" fill="none">
+        <svg class="svg-post-img" xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" fill="none">
             <rect width="99" height="99" rx="10" fill="#BFDB91" />
             <path
                 d="M1 48.6316C1 48.6316 11.4007 51.7105 21.8011 48.6316C46.0397 41.456 38.2308 -4.1579 56.8462 7.87719C79.1481 22.2957 96.8798 21.5263 100 1"
@@ -81,63 +84,64 @@
             <p class="ideas__post-text-descr">Main description, Main description, Main description, Main description,
                 Main description, Main description</p>
         </div>
-        <div class="ideas__tags">
-            <span class="ideas__tags--styles text-p-xSsmall">#tags1</span>
-            <span class="ideas__tags--styles text-p-xSsmall">#tags2</span>
-            <span class="ideas__tags--styles text-p-xSsmall">#tagsN</span>
-        </div>
-        <div class="ideas__metrics">
-            <div class="ideas__metrics-top">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
-                    <path d="M8.27648 0.5L15.6428 11.4375H0.910156L8.27648 0.5Z" fill="#4E5979" />
-                </svg>
-                <span class="ideas__metrics-top-num">1024</span>
+        <div class="mobile-metrics">
+            <div class="ideas__tags">
+                <span class="ideas__tags--styles text-p-xSsmall">#tags1</span>
+                <span class="ideas__tags--styles text-p-xSsmall">#tags2</span>
+                <span class="ideas__tags--styles text-p-xSsmall">#tagsN</span>
             </div>
-            <div class="ideas__metrics-bot text-p-xsmall">
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path
-                        d="M0.625 7.5C0.625 7.5 3.125 2.5 7.5 2.5C11.875 2.5 14.375 7.5 14.375 7.5C14.375 7.5 11.875 12.5 7.5 12.5C3.125 12.5 0.625 7.5 0.625 7.5Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                    <path
-                        d="M7.5 9.375C8.53553 9.375 9.375 8.53553 9.375 7.5C9.375 6.46447 8.53553 5.625 7.5 5.625C6.46447 5.625 5.625 6.46447 5.625 7.5C5.625 8.53553 6.46447 9.375 7.5 9.375Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path
-                        d="M13.125 9.375C13.125 9.70652 12.9933 10.0245 12.7589 10.2589C12.5245 10.4933 12.2065 10.625 11.875 10.625H4.375L1.875 13.125V3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H11.875C12.2065 1.875 12.5245 2.0067 12.7589 2.24112C12.9933 2.47554 13.125 2.79348 13.125 3.125V9.375Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                    <g clip-path="url(#clip0_328_4152)">
+            <div class="ideas__metrics">
+                <div class="ideas__metrics-top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                        <path d="M8.27648 0.5L15.6428 11.4375H0.910156L8.27648 0.5Z" fill="#4E5979" />
+                    </svg>
+                    <span class="ideas__metrics-top-num">1024</span>
+                </div>
+                <div class="ideas__metrics-bot text-p-xsmall">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                         <path
-                            d="M9.91732 12.25V11.0833C9.91732 10.4645 9.67149 9.871 9.2339 9.43342C8.79632 8.99583 8.20282 8.75 7.58398 8.75H2.91732C2.29848 8.75 1.70499 8.99583 1.2674 9.43342C0.829817 9.871 0.583984 10.4645 0.583984 11.0833V12.25"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            d="M0.625 7.5C0.625 7.5 3.125 2.5 7.5 2.5C11.875 2.5 14.375 7.5 14.375 7.5C14.375 7.5 11.875 12.5 7.5 12.5C3.125 12.5 0.625 7.5 0.625 7.5Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
                         <path
-                            d="M5.24935 6.41667C6.53801 6.41667 7.58268 5.372 7.58268 4.08333C7.58268 2.79467 6.53801 1.75 5.24935 1.75C3.96068 1.75 2.91602 2.79467 2.91602 4.08333C2.91602 5.372 3.96068 6.41667 5.24935 6.41667Z"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            d="M7.5 9.375C8.53553 9.375 9.375 8.53553 9.375 7.5C9.375 6.46447 8.53553 5.625 7.5 5.625C6.46447 5.625 5.625 6.46447 5.625 7.5C5.625 8.53553 6.46447 9.375 7.5 9.375Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                         <path
-                            d="M13.416 12.2484V11.0817C13.4156 10.5647 13.2436 10.0625 12.9268 9.6539C12.6101 9.2453 12.1666 8.95347 11.666 8.82422"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                            d="M9.33398 1.82422C9.83589 1.95273 10.2808 2.24463 10.5984 2.6539C10.9161 3.06317 11.0886 3.56654 11.0886 4.08464C11.0886 4.60273 10.9161 5.1061 10.5984 5.51537C10.2808 5.92464 9.83589 6.21654 9.33398 6.34505"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_328_4152">
-                            <rect width="14" height="14" fill="white" />
-                        </clipPath>
-                    </defs>
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-
+                            d="M13.125 9.375C13.125 9.70652 12.9933 10.0245 12.7589 10.2589C12.5245 10.4933 12.2065 10.625 11.875 10.625H4.375L1.875 13.125V3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H11.875C12.2065 1.875 12.5245 2.0067 12.7589 2.24112C12.9933 2.47554 13.125 2.79348 13.125 3.125V9.375Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <g clip-path="url(#clip0_328_4152)">
+                            <path
+                                d="M9.91732 12.25V11.0833C9.91732 10.4645 9.67149 9.871 9.2339 9.43342C8.79632 8.99583 8.20282 8.75 7.58398 8.75H2.91732C2.29848 8.75 1.70499 8.99583 1.2674 9.43342C0.829817 9.871 0.583984 10.4645 0.583984 11.0833V12.25"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M5.24935 6.41667C6.53801 6.41667 7.58268 5.372 7.58268 4.08333C7.58268 2.79467 6.53801 1.75 5.24935 1.75C3.96068 1.75 2.91602 2.79467 2.91602 4.08333C2.91602 5.372 3.96068 6.41667 5.24935 6.41667Z"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M13.416 12.2484V11.0817C13.4156 10.5647 13.2436 10.0625 12.9268 9.6539C12.6101 9.2453 12.1666 8.95347 11.666 8.82422"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M9.33398 1.82422C9.83589 1.95273 10.2808 2.24463 10.5984 2.6539C10.9161 3.06317 11.0886 3.56654 11.0886 4.08464C11.0886 4.60273 10.9161 5.1061 10.5984 5.51537C10.2808 5.92464 9.83589 6.21654 9.33398 6.34505"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_328_4152">
+                                <rect width="14" height="14" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                </div>
             </div>
         </div>
     </a>
 
      <a href="/postIdea" class="ideas__post">
-        <svg xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" fill="none">
+        <svg class="svg-post-img" xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" fill="none">
             <rect width="99" height="99" rx="10" fill="#BFDB91" />
             <path
                 d="M1 48.6316C1 48.6316 11.4007 51.7105 21.8011 48.6316C46.0397 41.456 38.2308 -4.1579 56.8462 7.87719C79.1481 22.2957 96.8798 21.5263 100 1"
@@ -149,62 +153,63 @@
             <p class="ideas__post-text-descr">Main description, Main description, Main description, Main description,
                 Main description, Main description</p>
         </div>
-        <div class="ideas__tags">
-            <span class="ideas__tags--styles text-p-xSsmall">#tags1</span>
-            <span class="ideas__tags--styles text-p-xSsmall">#tags2</span>
-            <span class="ideas__tags--styles text-p-xSsmall">#tagsN</span>
-        </div>
-        <div class="ideas__metrics">
-            <div class="ideas__metrics-top">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
-                    <path d="M8.27648 0.5L15.6428 11.4375H0.910156L8.27648 0.5Z" fill="#4E5979" />
-                </svg>
-                <span class="ideas__metrics-top-num">1024</span>
+        <div class="mobile-metrics">
+            <div class="ideas__tags">
+                <span class="ideas__tags--styles text-p-xSsmall">#tags1</span>
+                <span class="ideas__tags--styles text-p-xSsmall">#tags2</span>
+                <span class="ideas__tags--styles text-p-xSsmall">#tagsN</span>
             </div>
-            <div class="ideas__metrics-bot text-p-xsmall">
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path
-                        d="M0.625 7.5C0.625 7.5 3.125 2.5 7.5 2.5C11.875 2.5 14.375 7.5 14.375 7.5C14.375 7.5 11.875 12.5 7.5 12.5C3.125 12.5 0.625 7.5 0.625 7.5Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                    <path
-                        d="M7.5 9.375C8.53553 9.375 9.375 8.53553 9.375 7.5C9.375 6.46447 8.53553 5.625 7.5 5.625C6.46447 5.625 5.625 6.46447 5.625 7.5C5.625 8.53553 6.46447 9.375 7.5 9.375Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path
-                        d="M13.125 9.375C13.125 9.70652 12.9933 10.0245 12.7589 10.2589C12.5245 10.4933 12.2065 10.625 11.875 10.625H4.375L1.875 13.125V3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H11.875C12.2065 1.875 12.5245 2.0067 12.7589 2.24112C12.9933 2.47554 13.125 2.79348 13.125 3.125V9.375Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                    <g clip-path="url(#clip0_328_4152)">
+            <div class="ideas__metrics">
+                <div class="ideas__metrics-top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                        <path d="M8.27648 0.5L15.6428 11.4375H0.910156L8.27648 0.5Z" fill="#4E5979" />
+                    </svg>
+                    <span class="ideas__metrics-top-num">1024</span>
+                </div>
+                <div class="ideas__metrics-bot text-p-xsmall">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                         <path
-                            d="M9.91732 12.25V11.0833C9.91732 10.4645 9.67149 9.871 9.2339 9.43342C8.79632 8.99583 8.20282 8.75 7.58398 8.75H2.91732C2.29848 8.75 1.70499 8.99583 1.2674 9.43342C0.829817 9.871 0.583984 10.4645 0.583984 11.0833V12.25"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            d="M0.625 7.5C0.625 7.5 3.125 2.5 7.5 2.5C11.875 2.5 14.375 7.5 14.375 7.5C14.375 7.5 11.875 12.5 7.5 12.5C3.125 12.5 0.625 7.5 0.625 7.5Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
                         <path
-                            d="M5.24935 6.41667C6.53801 6.41667 7.58268 5.372 7.58268 4.08333C7.58268 2.79467 6.53801 1.75 5.24935 1.75C3.96068 1.75 2.91602 2.79467 2.91602 4.08333C2.91602 5.372 3.96068 6.41667 5.24935 6.41667Z"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            d="M7.5 9.375C8.53553 9.375 9.375 8.53553 9.375 7.5C9.375 6.46447 8.53553 5.625 7.5 5.625C6.46447 5.625 5.625 6.46447 5.625 7.5C5.625 8.53553 6.46447 9.375 7.5 9.375Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                         <path
-                            d="M13.416 12.2484V11.0817C13.4156 10.5647 13.2436 10.0625 12.9268 9.6539C12.6101 9.2453 12.1666 8.95347 11.666 8.82422"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                            d="M9.33398 1.82422C9.83589 1.95273 10.2808 2.24463 10.5984 2.6539C10.9161 3.06317 11.0886 3.56654 11.0886 4.08464C11.0886 4.60273 10.9161 5.1061 10.5984 5.51537C10.2808 5.92464 9.83589 6.21654 9.33398 6.34505"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_328_4152">
-                            <rect width="14" height="14" fill="white" />
-                        </clipPath>
-                    </defs>
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-
+                            d="M13.125 9.375C13.125 9.70652 12.9933 10.0245 12.7589 10.2589C12.5245 10.4933 12.2065 10.625 11.875 10.625H4.375L1.875 13.125V3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H11.875C12.2065 1.875 12.5245 2.0067 12.7589 2.24112C12.9933 2.47554 13.125 2.79348 13.125 3.125V9.375Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <g clip-path="url(#clip0_328_4152)">
+                            <path
+                                d="M9.91732 12.25V11.0833C9.91732 10.4645 9.67149 9.871 9.2339 9.43342C8.79632 8.99583 8.20282 8.75 7.58398 8.75H2.91732C2.29848 8.75 1.70499 8.99583 1.2674 9.43342C0.829817 9.871 0.583984 10.4645 0.583984 11.0833V12.25"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M5.24935 6.41667C6.53801 6.41667 7.58268 5.372 7.58268 4.08333C7.58268 2.79467 6.53801 1.75 5.24935 1.75C3.96068 1.75 2.91602 2.79467 2.91602 4.08333C2.91602 5.372 3.96068 6.41667 5.24935 6.41667Z"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M13.416 12.2484V11.0817C13.4156 10.5647 13.2436 10.0625 12.9268 9.6539C12.6101 9.2453 12.1666 8.95347 11.666 8.82422"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M9.33398 1.82422C9.83589 1.95273 10.2808 2.24463 10.5984 2.6539C10.9161 3.06317 11.0886 3.56654 11.0886 4.08464C11.0886 4.60273 10.9161 5.1061 10.5984 5.51537C10.2808 5.92464 9.83589 6.21654 9.33398 6.34505"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_328_4152">
+                                <rect width="14" height="14" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                </div>
             </div>
         </div>
     </a>
      <a href="/postIdea" class="ideas__post">
-        <svg xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" fill="none">
+        <svg class="svg-post-img" xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" fill="none">
             <rect width="99" height="99" rx="10" fill="#BFDB91" />
             <path
                 d="M1 48.6316C1 48.6316 11.4007 51.7105 21.8011 48.6316C46.0397 41.456 38.2308 -4.1579 56.8462 7.87719C79.1481 22.2957 96.8798 21.5263 100 1"
@@ -216,62 +221,63 @@
             <p class="ideas__post-text-descr">Main description, Main description, Main description, Main description,
                 Main description, Main description</p>
         </div>
-        <div class="ideas__tags">
-            <span class="ideas__tags--styles text-p-xSsmall">#tags1</span>
-            <span class="ideas__tags--styles text-p-xSsmall">#tags2</span>
-            <span class="ideas__tags--styles text-p-xSsmall">#tagsN</span>
-        </div>
-        <div class="ideas__metrics">
-            <div class="ideas__metrics-top">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
-                    <path d="M8.27648 0.5L15.6428 11.4375H0.910156L8.27648 0.5Z" fill="#4E5979" />
-                </svg>
-                <span class="ideas__metrics-top-num">1024</span>
+        <div class="mobile-metrics">
+            <div class="ideas__tags">
+                <span class="ideas__tags--styles text-p-xSsmall">#tags1</span>
+                <span class="ideas__tags--styles text-p-xSsmall">#tags2</span>
+                <span class="ideas__tags--styles text-p-xSsmall">#tagsN</span>
             </div>
-            <div class="ideas__metrics-bot text-p-xsmall">
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path
-                        d="M0.625 7.5C0.625 7.5 3.125 2.5 7.5 2.5C11.875 2.5 14.375 7.5 14.375 7.5C14.375 7.5 11.875 12.5 7.5 12.5C3.125 12.5 0.625 7.5 0.625 7.5Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                    <path
-                        d="M7.5 9.375C8.53553 9.375 9.375 8.53553 9.375 7.5C9.375 6.46447 8.53553 5.625 7.5 5.625C6.46447 5.625 5.625 6.46447 5.625 7.5C5.625 8.53553 6.46447 9.375 7.5 9.375Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path
-                        d="M13.125 9.375C13.125 9.70652 12.9933 10.0245 12.7589 10.2589C12.5245 10.4933 12.2065 10.625 11.875 10.625H4.375L1.875 13.125V3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H11.875C12.2065 1.875 12.5245 2.0067 12.7589 2.24112C12.9933 2.47554 13.125 2.79348 13.125 3.125V9.375Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                    <g clip-path="url(#clip0_328_4152)">
+            <div class="ideas__metrics">
+                <div class="ideas__metrics-top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                        <path d="M8.27648 0.5L15.6428 11.4375H0.910156L8.27648 0.5Z" fill="#4E5979" />
+                    </svg>
+                    <span class="ideas__metrics-top-num">1024</span>
+                </div>
+                <div class="ideas__metrics-bot text-p-xsmall">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                         <path
-                            d="M9.91732 12.25V11.0833C9.91732 10.4645 9.67149 9.871 9.2339 9.43342C8.79632 8.99583 8.20282 8.75 7.58398 8.75H2.91732C2.29848 8.75 1.70499 8.99583 1.2674 9.43342C0.829817 9.871 0.583984 10.4645 0.583984 11.0833V12.25"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            d="M0.625 7.5C0.625 7.5 3.125 2.5 7.5 2.5C11.875 2.5 14.375 7.5 14.375 7.5C14.375 7.5 11.875 12.5 7.5 12.5C3.125 12.5 0.625 7.5 0.625 7.5Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
                         <path
-                            d="M5.24935 6.41667C6.53801 6.41667 7.58268 5.372 7.58268 4.08333C7.58268 2.79467 6.53801 1.75 5.24935 1.75C3.96068 1.75 2.91602 2.79467 2.91602 4.08333C2.91602 5.372 3.96068 6.41667 5.24935 6.41667Z"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            d="M7.5 9.375C8.53553 9.375 9.375 8.53553 9.375 7.5C9.375 6.46447 8.53553 5.625 7.5 5.625C6.46447 5.625 5.625 6.46447 5.625 7.5C5.625 8.53553 6.46447 9.375 7.5 9.375Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                         <path
-                            d="M13.416 12.2484V11.0817C13.4156 10.5647 13.2436 10.0625 12.9268 9.6539C12.6101 9.2453 12.1666 8.95347 11.666 8.82422"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                            d="M9.33398 1.82422C9.83589 1.95273 10.2808 2.24463 10.5984 2.6539C10.9161 3.06317 11.0886 3.56654 11.0886 4.08464C11.0886 4.60273 10.9161 5.1061 10.5984 5.51537C10.2808 5.92464 9.83589 6.21654 9.33398 6.34505"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_328_4152">
-                            <rect width="14" height="14" fill="white" />
-                        </clipPath>
-                    </defs>
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-
+                            d="M13.125 9.375C13.125 9.70652 12.9933 10.0245 12.7589 10.2589C12.5245 10.4933 12.2065 10.625 11.875 10.625H4.375L1.875 13.125V3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H11.875C12.2065 1.875 12.5245 2.0067 12.7589 2.24112C12.9933 2.47554 13.125 2.79348 13.125 3.125V9.375Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <g clip-path="url(#clip0_328_4152)">
+                            <path
+                                d="M9.91732 12.25V11.0833C9.91732 10.4645 9.67149 9.871 9.2339 9.43342C8.79632 8.99583 8.20282 8.75 7.58398 8.75H2.91732C2.29848 8.75 1.70499 8.99583 1.2674 9.43342C0.829817 9.871 0.583984 10.4645 0.583984 11.0833V12.25"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M5.24935 6.41667C6.53801 6.41667 7.58268 5.372 7.58268 4.08333C7.58268 2.79467 6.53801 1.75 5.24935 1.75C3.96068 1.75 2.91602 2.79467 2.91602 4.08333C2.91602 5.372 3.96068 6.41667 5.24935 6.41667Z"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M13.416 12.2484V11.0817C13.4156 10.5647 13.2436 10.0625 12.9268 9.6539C12.6101 9.2453 12.1666 8.95347 11.666 8.82422"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M9.33398 1.82422C9.83589 1.95273 10.2808 2.24463 10.5984 2.6539C10.9161 3.06317 11.0886 3.56654 11.0886 4.08464C11.0886 4.60273 10.9161 5.1061 10.5984 5.51537C10.2808 5.92464 9.83589 6.21654 9.33398 6.34505"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_328_4152">
+                                <rect width="14" height="14" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                </div>
             </div>
         </div>
     </a>
      <a href="/postIdea" class="ideas__post">
-        <svg xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" fill="none">
+        <svg class="svg-post-img" xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" fill="none">
             <rect width="99" height="99" rx="10" fill="#BFDB91" />
             <path
                 d="M1 48.6316C1 48.6316 11.4007 51.7105 21.8011 48.6316C46.0397 41.456 38.2308 -4.1579 56.8462 7.87719C79.1481 22.2957 96.8798 21.5263 100 1"
@@ -283,62 +289,131 @@
             <p class="ideas__post-text-descr">Main description, Main description, Main description, Main description,
                 Main description, Main description</p>
         </div>
-        <div class="ideas__tags">
-            <span class="ideas__tags--styles text-p-xSsmall">#tags1</span>
-            <span class="ideas__tags--styles text-p-xSsmall">#tags2</span>
-            <span class="ideas__tags--styles text-p-xSsmall">#tagsN</span>
-        </div>
-        <div class="ideas__metrics">
-            <div class="ideas__metrics-top">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
-                    <path d="M8.27648 0.5L15.6428 11.4375H0.910156L8.27648 0.5Z" fill="#4E5979" />
-                </svg>
-                <span class="ideas__metrics-top-num">1024</span>
+        <div class="mobile-metrics">
+            <div class="ideas__tags">
+                <span class="ideas__tags--styles text-p-xSsmall">#tags1</span>
+                <span class="ideas__tags--styles text-p-xSsmall">#tags2</span>
+                <span class="ideas__tags--styles text-p-xSsmall">#tagsN</span>
             </div>
-            <div class="ideas__metrics-bot text-p-xsmall">
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path
-                        d="M0.625 7.5C0.625 7.5 3.125 2.5 7.5 2.5C11.875 2.5 14.375 7.5 14.375 7.5C14.375 7.5 11.875 12.5 7.5 12.5C3.125 12.5 0.625 7.5 0.625 7.5Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                    <path
-                        d="M7.5 9.375C8.53553 9.375 9.375 8.53553 9.375 7.5C9.375 6.46447 8.53553 5.625 7.5 5.625C6.46447 5.625 5.625 6.46447 5.625 7.5C5.625 8.53553 6.46447 9.375 7.5 9.375Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path
-                        d="M13.125 9.375C13.125 9.70652 12.9933 10.0245 12.7589 10.2589C12.5245 10.4933 12.2065 10.625 11.875 10.625H4.375L1.875 13.125V3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H11.875C12.2065 1.875 12.5245 2.0067 12.7589 2.24112C12.9933 2.47554 13.125 2.79348 13.125 3.125V9.375Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                    <g clip-path="url(#clip0_328_4152)">
+            <div class="ideas__metrics">
+                <div class="ideas__metrics-top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                        <path d="M8.27648 0.5L15.6428 11.4375H0.910156L8.27648 0.5Z" fill="#4E5979" />
+                    </svg>
+                    <span class="ideas__metrics-top-num">1024</span>
+                </div>
+                <div class="ideas__metrics-bot text-p-xsmall">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                         <path
-                            d="M9.91732 12.25V11.0833C9.91732 10.4645 9.67149 9.871 9.2339 9.43342C8.79632 8.99583 8.20282 8.75 7.58398 8.75H2.91732C2.29848 8.75 1.70499 8.99583 1.2674 9.43342C0.829817 9.871 0.583984 10.4645 0.583984 11.0833V12.25"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            d="M0.625 7.5C0.625 7.5 3.125 2.5 7.5 2.5C11.875 2.5 14.375 7.5 14.375 7.5C14.375 7.5 11.875 12.5 7.5 12.5C3.125 12.5 0.625 7.5 0.625 7.5Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
                         <path
-                            d="M5.24935 6.41667C6.53801 6.41667 7.58268 5.372 7.58268 4.08333C7.58268 2.79467 6.53801 1.75 5.24935 1.75C3.96068 1.75 2.91602 2.79467 2.91602 4.08333C2.91602 5.372 3.96068 6.41667 5.24935 6.41667Z"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            d="M7.5 9.375C8.53553 9.375 9.375 8.53553 9.375 7.5C9.375 6.46447 8.53553 5.625 7.5 5.625C6.46447 5.625 5.625 6.46447 5.625 7.5C5.625 8.53553 6.46447 9.375 7.5 9.375Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                         <path
-                            d="M13.416 12.2484V11.0817C13.4156 10.5647 13.2436 10.0625 12.9268 9.6539C12.6101 9.2453 12.1666 8.95347 11.666 8.82422"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            d="M13.125 9.375C13.125 9.70652 12.9933 10.0245 12.7589 10.2589C12.5245 10.4933 12.2065 10.625 11.875 10.625H4.375L1.875 13.125V3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H11.875C12.2065 1.875 12.5245 2.0067 12.7589 2.24112C12.9933 2.47554 13.125 2.79348 13.125 3.125V9.375Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <g clip-path="url(#clip0_328_4152)">
+                            <path
+                                d="M9.91732 12.25V11.0833C9.91732 10.4645 9.67149 9.871 9.2339 9.43342C8.79632 8.99583 8.20282 8.75 7.58398 8.75H2.91732C2.29848 8.75 1.70499 8.99583 1.2674 9.43342C0.829817 9.871 0.583984 10.4645 0.583984 11.0833V12.25"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M5.24935 6.41667C6.53801 6.41667 7.58268 5.372 7.58268 4.08333C7.58268 2.79467 6.53801 1.75 5.24935 1.75C3.96068 1.75 2.91602 2.79467 2.91602 4.08333C2.91602 5.372 3.96068 6.41667 5.24935 6.41667Z"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M13.416 12.2484V11.0817C13.4156 10.5647 13.2436 10.0625 12.9268 9.6539C12.6101 9.2453 12.1666 8.95347 11.666 8.82422"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M9.33398 1.82422C9.83589 1.95273 10.2808 2.24463 10.5984 2.6539C10.9161 3.06317 11.0886 3.56654 11.0886 4.08464C11.0886 4.60273 10.9161 5.1061 10.5984 5.51537C10.2808 5.92464 9.83589 6.21654 9.33398 6.34505"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_328_4152">
+                                <rect width="14" height="14" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                </div>
+            </div>
+        </div>
+    </a>
+     <a  href="/postIdea" class="ideas__post">
+        <svg class="svg-post-img" xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" fill="none">
+            <rect width="99" height="99" rx="10" fill="#BFDB91" />
+            <path
+                d="M1 48.6316C1 48.6316 11.4007 51.7105 21.8011 48.6316C46.0397 41.456 38.2308 -4.1579 56.8462 7.87719C79.1481 22.2957 96.8798 21.5263 100 1"
+                transform="translate(-1, 2)" stroke="white" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+        </svg>
+        <div class="ideas__post-text text-p-small">
+            <h3 class="ideas__post-text-title">Idea name #31</h3>
+            <p class="ideas__post-text-descr">Main description, Main description, Main description, Main description,
+                Main description, Main description</p>
+        </div>
+        <div class="mobile-metrics">
+            <div class="ideas__tags">
+                <span class="ideas__tags--styles text-p-xSsmall">#tags1</span>
+                <span class="ideas__tags--styles text-p-xSsmall">#tags2</span>
+                <span class="ideas__tags--styles text-p-xSsmall">#tagsN</span>
+            </div>
+            <div class="ideas__metrics">
+                <div class="ideas__metrics-top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                        <path d="M8.27648 0.5L15.6428 11.4375H0.910156L8.27648 0.5Z" fill="#4E5979" />
+                    </svg>
+                    <span class="ideas__metrics-top-num">1024</span>
+                </div>
+                <div class="ideas__metrics-bot text-p-xsmall">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                         <path
-                            d="M9.33398 1.82422C9.83589 1.95273 10.2808 2.24463 10.5984 2.6539C10.9161 3.06317 11.0886 3.56654 11.0886 4.08464C11.0886 4.60273 10.9161 5.1061 10.5984 5.51537C10.2808 5.92464 9.83589 6.21654 9.33398 6.34505"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_328_4152">
-                            <rect width="14" height="14" fill="white" />
-                        </clipPath>
-                    </defs>
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-
+                            d="M0.625 7.5C0.625 7.5 3.125 2.5 7.5 2.5C11.875 2.5 14.375 7.5 14.375 7.5C14.375 7.5 11.875 12.5 7.5 12.5C3.125 12.5 0.625 7.5 0.625 7.5Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M7.5 9.375C8.53553 9.375 9.375 8.53553 9.375 7.5C9.375 6.46447 8.53553 5.625 7.5 5.625C6.46447 5.625 5.625 6.46447 5.625 7.5C5.625 8.53553 6.46447 9.375 7.5 9.375Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                        <path
+                            d="M13.125 9.375C13.125 9.70652 12.9933 10.0245 12.7589 10.2589C12.5245 10.4933 12.2065 10.625 11.875 10.625H4.375L1.875 13.125V3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H11.875C12.2065 1.875 12.5245 2.0067 12.7589 2.24112C12.9933 2.47554 13.125 2.79348 13.125 3.125V9.375Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <g clip-path="url(#clip0_328_4152)">
+                            <path
+                                d="M9.91732 12.25V11.0833C9.91732 10.4645 9.67149 9.871 9.2339 9.43342C8.79632 8.99583 8.20282 8.75 7.58398 8.75H2.91732C2.29848 8.75 1.70499 8.99583 1.2674 9.43342C0.829817 9.871 0.583984 10.4645 0.583984 11.0833V12.25"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M5.24935 6.41667C6.53801 6.41667 7.58268 5.372 7.58268 4.08333C7.58268 2.79467 6.53801 1.75 5.24935 1.75C3.96068 1.75 2.91602 2.79467 2.91602 4.08333C2.91602 5.372 3.96068 6.41667 5.24935 6.41667Z"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M13.416 12.2484V11.0817C13.4156 10.5647 13.2436 10.0625 12.9268 9.6539C12.6101 9.2453 12.1666 8.95347 11.666 8.82422"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M9.33398 1.82422C9.83589 1.95273 10.2808 2.24463 10.5984 2.6539C10.9161 3.06317 11.0886 3.56654 11.0886 4.08464C11.0886 4.60273 10.9161 5.1061 10.5984 5.51537C10.2808 5.92464 9.83589 6.21654 9.33398 6.34505"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_328_4152">
+                                <rect width="14" height="14" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                </div>
             </div>
         </div>
     </a>
      <a href="/postIdea" class="ideas__post">
-        <svg xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" fill="none">
+        <svg class="svg-post-img" xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" fill="none">
             <rect width="99" height="99" rx="10" fill="#BFDB91" />
             <path
                 d="M1 48.6316C1 48.6316 11.4007 51.7105 21.8011 48.6316C46.0397 41.456 38.2308 -4.1579 56.8462 7.87719C79.1481 22.2957 96.8798 21.5263 100 1"
@@ -350,62 +425,63 @@
             <p class="ideas__post-text-descr">Main description, Main description, Main description, Main description,
                 Main description, Main description</p>
         </div>
-        <div class="ideas__tags">
-            <span class="ideas__tags--styles text-p-xSsmall">#tags1</span>
-            <span class="ideas__tags--styles text-p-xSsmall">#tags2</span>
-            <span class="ideas__tags--styles text-p-xSsmall">#tagsN</span>
-        </div>
-        <div class="ideas__metrics">
-            <div class="ideas__metrics-top">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
-                    <path d="M8.27648 0.5L15.6428 11.4375H0.910156L8.27648 0.5Z" fill="#4E5979" />
-                </svg>
-                <span class="ideas__metrics-top-num">1024</span>
+        <div class="mobile-metrics">
+            <div class="ideas__tags">
+                <span class="ideas__tags--styles text-p-xSsmall">#tags1</span>
+                <span class="ideas__tags--styles text-p-xSsmall">#tags2</span>
+                <span class="ideas__tags--styles text-p-xSsmall">#tagsN</span>
             </div>
-            <div class="ideas__metrics-bot text-p-xsmall">
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path
-                        d="M0.625 7.5C0.625 7.5 3.125 2.5 7.5 2.5C11.875 2.5 14.375 7.5 14.375 7.5C14.375 7.5 11.875 12.5 7.5 12.5C3.125 12.5 0.625 7.5 0.625 7.5Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                    <path
-                        d="M7.5 9.375C8.53553 9.375 9.375 8.53553 9.375 7.5C9.375 6.46447 8.53553 5.625 7.5 5.625C6.46447 5.625 5.625 6.46447 5.625 7.5C5.625 8.53553 6.46447 9.375 7.5 9.375Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path
-                        d="M13.125 9.375C13.125 9.70652 12.9933 10.0245 12.7589 10.2589C12.5245 10.4933 12.2065 10.625 11.875 10.625H4.375L1.875 13.125V3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H11.875C12.2065 1.875 12.5245 2.0067 12.7589 2.24112C12.9933 2.47554 13.125 2.79348 13.125 3.125V9.375Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                    <g clip-path="url(#clip0_328_4152)">
+            <div class="ideas__metrics">
+                <div class="ideas__metrics-top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                        <path d="M8.27648 0.5L15.6428 11.4375H0.910156L8.27648 0.5Z" fill="#4E5979" />
+                    </svg>
+                    <span class="ideas__metrics-top-num">1024</span>
+                </div>
+                <div class="ideas__metrics-bot text-p-xsmall">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                         <path
-                            d="M9.91732 12.25V11.0833C9.91732 10.4645 9.67149 9.871 9.2339 9.43342C8.79632 8.99583 8.20282 8.75 7.58398 8.75H2.91732C2.29848 8.75 1.70499 8.99583 1.2674 9.43342C0.829817 9.871 0.583984 10.4645 0.583984 11.0833V12.25"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            d="M0.625 7.5C0.625 7.5 3.125 2.5 7.5 2.5C11.875 2.5 14.375 7.5 14.375 7.5C14.375 7.5 11.875 12.5 7.5 12.5C3.125 12.5 0.625 7.5 0.625 7.5Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
                         <path
-                            d="M5.24935 6.41667C6.53801 6.41667 7.58268 5.372 7.58268 4.08333C7.58268 2.79467 6.53801 1.75 5.24935 1.75C3.96068 1.75 2.91602 2.79467 2.91602 4.08333C2.91602 5.372 3.96068 6.41667 5.24935 6.41667Z"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            d="M7.5 9.375C8.53553 9.375 9.375 8.53553 9.375 7.5C9.375 6.46447 8.53553 5.625 7.5 5.625C6.46447 5.625 5.625 6.46447 5.625 7.5C5.625 8.53553 6.46447 9.375 7.5 9.375Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                         <path
-                            d="M13.416 12.2484V11.0817C13.4156 10.5647 13.2436 10.0625 12.9268 9.6539C12.6101 9.2453 12.1666 8.95347 11.666 8.82422"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                            d="M9.33398 1.82422C9.83589 1.95273 10.2808 2.24463 10.5984 2.6539C10.9161 3.06317 11.0886 3.56654 11.0886 4.08464C11.0886 4.60273 10.9161 5.1061 10.5984 5.51537C10.2808 5.92464 9.83589 6.21654 9.33398 6.34505"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_328_4152">
-                            <rect width="14" height="14" fill="white" />
-                        </clipPath>
-                    </defs>
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-
+                            d="M13.125 9.375C13.125 9.70652 12.9933 10.0245 12.7589 10.2589C12.5245 10.4933 12.2065 10.625 11.875 10.625H4.375L1.875 13.125V3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H11.875C12.2065 1.875 12.5245 2.0067 12.7589 2.24112C12.9933 2.47554 13.125 2.79348 13.125 3.125V9.375Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <g clip-path="url(#clip0_328_4152)">
+                            <path
+                                d="M9.91732 12.25V11.0833C9.91732 10.4645 9.67149 9.871 9.2339 9.43342C8.79632 8.99583 8.20282 8.75 7.58398 8.75H2.91732C2.29848 8.75 1.70499 8.99583 1.2674 9.43342C0.829817 9.871 0.583984 10.4645 0.583984 11.0833V12.25"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M5.24935 6.41667C6.53801 6.41667 7.58268 5.372 7.58268 4.08333C7.58268 2.79467 6.53801 1.75 5.24935 1.75C3.96068 1.75 2.91602 2.79467 2.91602 4.08333C2.91602 5.372 3.96068 6.41667 5.24935 6.41667Z"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M13.416 12.2484V11.0817C13.4156 10.5647 13.2436 10.0625 12.9268 9.6539C12.6101 9.2453 12.1666 8.95347 11.666 8.82422"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M9.33398 1.82422C9.83589 1.95273 10.2808 2.24463 10.5984 2.6539C10.9161 3.06317 11.0886 3.56654 11.0886 4.08464C11.0886 4.60273 10.9161 5.1061 10.5984 5.51537C10.2808 5.92464 9.83589 6.21654 9.33398 6.34505"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_328_4152">
+                                <rect width="14" height="14" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                </div>
             </div>
         </div>
     </a>
      <a href="/postIdea" class="ideas__post">
-        <svg xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" fill="none">
+        <svg class="svg-post-img" xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" fill="none">
             <rect width="99" height="99" rx="10" fill="#BFDB91" />
             <path
                 d="M1 48.6316C1 48.6316 11.4007 51.7105 21.8011 48.6316C46.0397 41.456 38.2308 -4.1579 56.8462 7.87719C79.1481 22.2957 96.8798 21.5263 100 1"
@@ -417,62 +493,63 @@
             <p class="ideas__post-text-descr">Main description, Main description, Main description, Main description,
                 Main description, Main description</p>
         </div>
-        <div class="ideas__tags">
-            <span class="ideas__tags--styles text-p-xSsmall">#tags1</span>
-            <span class="ideas__tags--styles text-p-xSsmall">#tags2</span>
-            <span class="ideas__tags--styles text-p-xSsmall">#tagsN</span>
-        </div>
-        <div class="ideas__metrics">
-            <div class="ideas__metrics-top">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
-                    <path d="M8.27648 0.5L15.6428 11.4375H0.910156L8.27648 0.5Z" fill="#4E5979" />
-                </svg>
-                <span class="ideas__metrics-top-num">1024</span>
+        <div class="mobile-metrics">
+            <div class="ideas__tags">
+                <span class="ideas__tags--styles text-p-xSsmall">#tags1</span>
+                <span class="ideas__tags--styles text-p-xSsmall">#tags2</span>
+                <span class="ideas__tags--styles text-p-xSsmall">#tagsN</span>
             </div>
-            <div class="ideas__metrics-bot text-p-xsmall">
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path
-                        d="M0.625 7.5C0.625 7.5 3.125 2.5 7.5 2.5C11.875 2.5 14.375 7.5 14.375 7.5C14.375 7.5 11.875 12.5 7.5 12.5C3.125 12.5 0.625 7.5 0.625 7.5Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                    <path
-                        d="M7.5 9.375C8.53553 9.375 9.375 8.53553 9.375 7.5C9.375 6.46447 8.53553 5.625 7.5 5.625C6.46447 5.625 5.625 6.46447 5.625 7.5C5.625 8.53553 6.46447 9.375 7.5 9.375Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path
-                        d="M13.125 9.375C13.125 9.70652 12.9933 10.0245 12.7589 10.2589C12.5245 10.4933 12.2065 10.625 11.875 10.625H4.375L1.875 13.125V3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H11.875C12.2065 1.875 12.5245 2.0067 12.7589 2.24112C12.9933 2.47554 13.125 2.79348 13.125 3.125V9.375Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                    <g clip-path="url(#clip0_328_4152)">
+            <div class="ideas__metrics">
+                <div class="ideas__metrics-top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                        <path d="M8.27648 0.5L15.6428 11.4375H0.910156L8.27648 0.5Z" fill="#4E5979" />
+                    </svg>
+                    <span class="ideas__metrics-top-num">1024</span>
+                </div>
+                <div class="ideas__metrics-bot text-p-xsmall">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                         <path
-                            d="M9.91732 12.25V11.0833C9.91732 10.4645 9.67149 9.871 9.2339 9.43342C8.79632 8.99583 8.20282 8.75 7.58398 8.75H2.91732C2.29848 8.75 1.70499 8.99583 1.2674 9.43342C0.829817 9.871 0.583984 10.4645 0.583984 11.0833V12.25"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            d="M0.625 7.5C0.625 7.5 3.125 2.5 7.5 2.5C11.875 2.5 14.375 7.5 14.375 7.5C14.375 7.5 11.875 12.5 7.5 12.5C3.125 12.5 0.625 7.5 0.625 7.5Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
                         <path
-                            d="M5.24935 6.41667C6.53801 6.41667 7.58268 5.372 7.58268 4.08333C7.58268 2.79467 6.53801 1.75 5.24935 1.75C3.96068 1.75 2.91602 2.79467 2.91602 4.08333C2.91602 5.372 3.96068 6.41667 5.24935 6.41667Z"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            d="M7.5 9.375C8.53553 9.375 9.375 8.53553 9.375 7.5C9.375 6.46447 8.53553 5.625 7.5 5.625C6.46447 5.625 5.625 6.46447 5.625 7.5C5.625 8.53553 6.46447 9.375 7.5 9.375Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                         <path
-                            d="M13.416 12.2484V11.0817C13.4156 10.5647 13.2436 10.0625 12.9268 9.6539C12.6101 9.2453 12.1666 8.95347 11.666 8.82422"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                            d="M9.33398 1.82422C9.83589 1.95273 10.2808 2.24463 10.5984 2.6539C10.9161 3.06317 11.0886 3.56654 11.0886 4.08464C11.0886 4.60273 10.9161 5.1061 10.5984 5.51537C10.2808 5.92464 9.83589 6.21654 9.33398 6.34505"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_328_4152">
-                            <rect width="14" height="14" fill="white" />
-                        </clipPath>
-                    </defs>
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-
+                            d="M13.125 9.375C13.125 9.70652 12.9933 10.0245 12.7589 10.2589C12.5245 10.4933 12.2065 10.625 11.875 10.625H4.375L1.875 13.125V3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H11.875C12.2065 1.875 12.5245 2.0067 12.7589 2.24112C12.9933 2.47554 13.125 2.79348 13.125 3.125V9.375Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <g clip-path="url(#clip0_328_4152)">
+                            <path
+                                d="M9.91732 12.25V11.0833C9.91732 10.4645 9.67149 9.871 9.2339 9.43342C8.79632 8.99583 8.20282 8.75 7.58398 8.75H2.91732C2.29848 8.75 1.70499 8.99583 1.2674 9.43342C0.829817 9.871 0.583984 10.4645 0.583984 11.0833V12.25"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M5.24935 6.41667C6.53801 6.41667 7.58268 5.372 7.58268 4.08333C7.58268 2.79467 6.53801 1.75 5.24935 1.75C3.96068 1.75 2.91602 2.79467 2.91602 4.08333C2.91602 5.372 3.96068 6.41667 5.24935 6.41667Z"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M13.416 12.2484V11.0817C13.4156 10.5647 13.2436 10.0625 12.9268 9.6539C12.6101 9.2453 12.1666 8.95347 11.666 8.82422"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M9.33398 1.82422C9.83589 1.95273 10.2808 2.24463 10.5984 2.6539C10.9161 3.06317 11.0886 3.56654 11.0886 4.08464C11.0886 4.60273 10.9161 5.1061 10.5984 5.51537C10.2808 5.92464 9.83589 6.21654 9.33398 6.34505"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_328_4152">
+                                <rect width="14" height="14" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                </div>
             </div>
         </div>
     </a>
      <a href="/postIdea" class="ideas__post">
-        <svg xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" fill="none">
+        <svg class="svg-post-img" xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" fill="none">
             <rect width="99" height="99" rx="10" fill="#BFDB91" />
             <path
                 d="M1 48.6316C1 48.6316 11.4007 51.7105 21.8011 48.6316C46.0397 41.456 38.2308 -4.1579 56.8462 7.87719C79.1481 22.2957 96.8798 21.5263 100 1"
@@ -484,62 +561,63 @@
             <p class="ideas__post-text-descr">Main description, Main description, Main description, Main description,
                 Main description, Main description</p>
         </div>
-        <div class="ideas__tags">
-            <span class="ideas__tags--styles text-p-xSsmall">#tags1</span>
-            <span class="ideas__tags--styles text-p-xSsmall">#tags2</span>
-            <span class="ideas__tags--styles text-p-xSsmall">#tagsN</span>
-        </div>
-        <div class="ideas__metrics">
-            <div class="ideas__metrics-top">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
-                    <path d="M8.27648 0.5L15.6428 11.4375H0.910156L8.27648 0.5Z" fill="#4E5979" />
-                </svg>
-                <span class="ideas__metrics-top-num">1024</span>
+        <div class="mobile-metrics">
+            <div class="ideas__tags">
+                <span class="ideas__tags--styles text-p-xSsmall">#tags1</span>
+                <span class="ideas__tags--styles text-p-xSsmall">#tags2</span>
+                <span class="ideas__tags--styles text-p-xSsmall">#tagsN</span>
             </div>
-            <div class="ideas__metrics-bot text-p-xsmall">
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path
-                        d="M0.625 7.5C0.625 7.5 3.125 2.5 7.5 2.5C11.875 2.5 14.375 7.5 14.375 7.5C14.375 7.5 11.875 12.5 7.5 12.5C3.125 12.5 0.625 7.5 0.625 7.5Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                    <path
-                        d="M7.5 9.375C8.53553 9.375 9.375 8.53553 9.375 7.5C9.375 6.46447 8.53553 5.625 7.5 5.625C6.46447 5.625 5.625 6.46447 5.625 7.5C5.625 8.53553 6.46447 9.375 7.5 9.375Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path
-                        d="M13.125 9.375C13.125 9.70652 12.9933 10.0245 12.7589 10.2589C12.5245 10.4933 12.2065 10.625 11.875 10.625H4.375L1.875 13.125V3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H11.875C12.2065 1.875 12.5245 2.0067 12.7589 2.24112C12.9933 2.47554 13.125 2.79348 13.125 3.125V9.375Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                    <g clip-path="url(#clip0_328_4152)">
+            <div class="ideas__metrics">
+                <div class="ideas__metrics-top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                        <path d="M8.27648 0.5L15.6428 11.4375H0.910156L8.27648 0.5Z" fill="#4E5979" />
+                    </svg>
+                    <span class="ideas__metrics-top-num">1024</span>
+                </div>
+                <div class="ideas__metrics-bot text-p-xsmall">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                         <path
-                            d="M9.91732 12.25V11.0833C9.91732 10.4645 9.67149 9.871 9.2339 9.43342C8.79632 8.99583 8.20282 8.75 7.58398 8.75H2.91732C2.29848 8.75 1.70499 8.99583 1.2674 9.43342C0.829817 9.871 0.583984 10.4645 0.583984 11.0833V12.25"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            d="M0.625 7.5C0.625 7.5 3.125 2.5 7.5 2.5C11.875 2.5 14.375 7.5 14.375 7.5C14.375 7.5 11.875 12.5 7.5 12.5C3.125 12.5 0.625 7.5 0.625 7.5Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
                         <path
-                            d="M5.24935 6.41667C6.53801 6.41667 7.58268 5.372 7.58268 4.08333C7.58268 2.79467 6.53801 1.75 5.24935 1.75C3.96068 1.75 2.91602 2.79467 2.91602 4.08333C2.91602 5.372 3.96068 6.41667 5.24935 6.41667Z"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            d="M7.5 9.375C8.53553 9.375 9.375 8.53553 9.375 7.5C9.375 6.46447 8.53553 5.625 7.5 5.625C6.46447 5.625 5.625 6.46447 5.625 7.5C5.625 8.53553 6.46447 9.375 7.5 9.375Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                         <path
-                            d="M13.416 12.2484V11.0817C13.4156 10.5647 13.2436 10.0625 12.9268 9.6539C12.6101 9.2453 12.1666 8.95347 11.666 8.82422"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                            d="M9.33398 1.82422C9.83589 1.95273 10.2808 2.24463 10.5984 2.6539C10.9161 3.06317 11.0886 3.56654 11.0886 4.08464C11.0886 4.60273 10.9161 5.1061 10.5984 5.51537C10.2808 5.92464 9.83589 6.21654 9.33398 6.34505"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_328_4152">
-                            <rect width="14" height="14" fill="white" />
-                        </clipPath>
-                    </defs>
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-
+                            d="M13.125 9.375C13.125 9.70652 12.9933 10.0245 12.7589 10.2589C12.5245 10.4933 12.2065 10.625 11.875 10.625H4.375L1.875 13.125V3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H11.875C12.2065 1.875 12.5245 2.0067 12.7589 2.24112C12.9933 2.47554 13.125 2.79348 13.125 3.125V9.375Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <g clip-path="url(#clip0_328_4152)">
+                            <path
+                                d="M9.91732 12.25V11.0833C9.91732 10.4645 9.67149 9.871 9.2339 9.43342C8.79632 8.99583 8.20282 8.75 7.58398 8.75H2.91732C2.29848 8.75 1.70499 8.99583 1.2674 9.43342C0.829817 9.871 0.583984 10.4645 0.583984 11.0833V12.25"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M5.24935 6.41667C6.53801 6.41667 7.58268 5.372 7.58268 4.08333C7.58268 2.79467 6.53801 1.75 5.24935 1.75C3.96068 1.75 2.91602 2.79467 2.91602 4.08333C2.91602 5.372 3.96068 6.41667 5.24935 6.41667Z"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M13.416 12.2484V11.0817C13.4156 10.5647 13.2436 10.0625 12.9268 9.6539C12.6101 9.2453 12.1666 8.95347 11.666 8.82422"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M9.33398 1.82422C9.83589 1.95273 10.2808 2.24463 10.5984 2.6539C10.9161 3.06317 11.0886 3.56654 11.0886 4.08464C11.0886 4.60273 10.9161 5.1061 10.5984 5.51537C10.2808 5.92464 9.83589 6.21654 9.33398 6.34505"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_328_4152">
+                                <rect width="14" height="14" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                </div>
             </div>
         </div>
     </a>
      <a href="/postIdea" class="ideas__post">
-        <svg xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" fill="none">
+        <svg class="svg-post-img" xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" fill="none">
             <rect width="99" height="99" rx="10" fill="#BFDB91" />
             <path
                 d="M1 48.6316C1 48.6316 11.4007 51.7105 21.8011 48.6316C46.0397 41.456 38.2308 -4.1579 56.8462 7.87719C79.1481 22.2957 96.8798 21.5263 100 1"
@@ -551,62 +629,63 @@
             <p class="ideas__post-text-descr">Main description, Main description, Main description, Main description,
                 Main description, Main description</p>
         </div>
-        <div class="ideas__tags">
-            <span class="ideas__tags--styles text-p-xSsmall">#tags1</span>
-            <span class="ideas__tags--styles text-p-xSsmall">#tags2</span>
-            <span class="ideas__tags--styles text-p-xSsmall">#tagsN</span>
-        </div>
-        <div class="ideas__metrics">
-            <div class="ideas__metrics-top">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
-                    <path d="M8.27648 0.5L15.6428 11.4375H0.910156L8.27648 0.5Z" fill="#4E5979" />
-                </svg>
-                <span class="ideas__metrics-top-num">1024</span>
+        <div class="mobile-metrics">
+            <div class="ideas__tags">
+                <span class="ideas__tags--styles text-p-xSsmall">#tags1</span>
+                <span class="ideas__tags--styles text-p-xSsmall">#tags2</span>
+                <span class="ideas__tags--styles text-p-xSsmall">#tagsN</span>
             </div>
-            <div class="ideas__metrics-bot text-p-xsmall">
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path
-                        d="M0.625 7.5C0.625 7.5 3.125 2.5 7.5 2.5C11.875 2.5 14.375 7.5 14.375 7.5C14.375 7.5 11.875 12.5 7.5 12.5C3.125 12.5 0.625 7.5 0.625 7.5Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                    <path
-                        d="M7.5 9.375C8.53553 9.375 9.375 8.53553 9.375 7.5C9.375 6.46447 8.53553 5.625 7.5 5.625C6.46447 5.625 5.625 6.46447 5.625 7.5C5.625 8.53553 6.46447 9.375 7.5 9.375Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path
-                        d="M13.125 9.375C13.125 9.70652 12.9933 10.0245 12.7589 10.2589C12.5245 10.4933 12.2065 10.625 11.875 10.625H4.375L1.875 13.125V3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H11.875C12.2065 1.875 12.5245 2.0067 12.7589 2.24112C12.9933 2.47554 13.125 2.79348 13.125 3.125V9.375Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                    <g clip-path="url(#clip0_328_4152)">
+            <div class="ideas__metrics">
+                <div class="ideas__metrics-top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                        <path d="M8.27648 0.5L15.6428 11.4375H0.910156L8.27648 0.5Z" fill="#4E5979" />
+                    </svg>
+                    <span class="ideas__metrics-top-num">1024</span>
+                </div>
+                <div class="ideas__metrics-bot text-p-xsmall">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                         <path
-                            d="M9.91732 12.25V11.0833C9.91732 10.4645 9.67149 9.871 9.2339 9.43342C8.79632 8.99583 8.20282 8.75 7.58398 8.75H2.91732C2.29848 8.75 1.70499 8.99583 1.2674 9.43342C0.829817 9.871 0.583984 10.4645 0.583984 11.0833V12.25"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            d="M0.625 7.5C0.625 7.5 3.125 2.5 7.5 2.5C11.875 2.5 14.375 7.5 14.375 7.5C14.375 7.5 11.875 12.5 7.5 12.5C3.125 12.5 0.625 7.5 0.625 7.5Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
                         <path
-                            d="M5.24935 6.41667C6.53801 6.41667 7.58268 5.372 7.58268 4.08333C7.58268 2.79467 6.53801 1.75 5.24935 1.75C3.96068 1.75 2.91602 2.79467 2.91602 4.08333C2.91602 5.372 3.96068 6.41667 5.24935 6.41667Z"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            d="M7.5 9.375C8.53553 9.375 9.375 8.53553 9.375 7.5C9.375 6.46447 8.53553 5.625 7.5 5.625C6.46447 5.625 5.625 6.46447 5.625 7.5C5.625 8.53553 6.46447 9.375 7.5 9.375Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                         <path
-                            d="M13.416 12.2484V11.0817C13.4156 10.5647 13.2436 10.0625 12.9268 9.6539C12.6101 9.2453 12.1666 8.95347 11.666 8.82422"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                            d="M9.33398 1.82422C9.83589 1.95273 10.2808 2.24463 10.5984 2.6539C10.9161 3.06317 11.0886 3.56654 11.0886 4.08464C11.0886 4.60273 10.9161 5.1061 10.5984 5.51537C10.2808 5.92464 9.83589 6.21654 9.33398 6.34505"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_328_4152">
-                            <rect width="14" height="14" fill="white" />
-                        </clipPath>
-                    </defs>
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-
+                            d="M13.125 9.375C13.125 9.70652 12.9933 10.0245 12.7589 10.2589C12.5245 10.4933 12.2065 10.625 11.875 10.625H4.375L1.875 13.125V3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H11.875C12.2065 1.875 12.5245 2.0067 12.7589 2.24112C12.9933 2.47554 13.125 2.79348 13.125 3.125V9.375Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <g clip-path="url(#clip0_328_4152)">
+                            <path
+                                d="M9.91732 12.25V11.0833C9.91732 10.4645 9.67149 9.871 9.2339 9.43342C8.79632 8.99583 8.20282 8.75 7.58398 8.75H2.91732C2.29848 8.75 1.70499 8.99583 1.2674 9.43342C0.829817 9.871 0.583984 10.4645 0.583984 11.0833V12.25"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M5.24935 6.41667C6.53801 6.41667 7.58268 5.372 7.58268 4.08333C7.58268 2.79467 6.53801 1.75 5.24935 1.75C3.96068 1.75 2.91602 2.79467 2.91602 4.08333C2.91602 5.372 3.96068 6.41667 5.24935 6.41667Z"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M13.416 12.2484V11.0817C13.4156 10.5647 13.2436 10.0625 12.9268 9.6539C12.6101 9.2453 12.1666 8.95347 11.666 8.82422"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M9.33398 1.82422C9.83589 1.95273 10.2808 2.24463 10.5984 2.6539C10.9161 3.06317 11.0886 3.56654 11.0886 4.08464C11.0886 4.60273 10.9161 5.1061 10.5984 5.51537C10.2808 5.92464 9.83589 6.21654 9.33398 6.34505"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_328_4152">
+                                <rect width="14" height="14" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                </div>
             </div>
         </div>
     </a>
      <a href="/postIdea" class="ideas__post">
-        <svg xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" fill="none">
+        <svg class="svg-post-img" xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" fill="none">
             <rect width="99" height="99" rx="10" fill="#BFDB91" />
             <path
                 d="M1 48.6316C1 48.6316 11.4007 51.7105 21.8011 48.6316C46.0397 41.456 38.2308 -4.1579 56.8462 7.87719C79.1481 22.2957 96.8798 21.5263 100 1"
@@ -618,124 +697,58 @@
             <p class="ideas__post-text-descr">Main description, Main description, Main description, Main description,
                 Main description, Main description</p>
         </div>
-        <div class="ideas__tags">
-            <span class="ideas__tags--styles text-p-xSsmall">#tags1</span>
-            <span class="ideas__tags--styles text-p-xSsmall">#tags2</span>
-            <span class="ideas__tags--styles text-p-xSsmall">#tagsN</span>
-        </div>
-        <div class="ideas__metrics">
-            <div class="ideas__metrics-top">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
-                    <path d="M8.27648 0.5L15.6428 11.4375H0.910156L8.27648 0.5Z" fill="#4E5979" />
-                </svg>
-                <span class="ideas__metrics-top-num">1024</span>
+        <div class="mobile-metrics">
+            <div class="ideas__tags">
+                <span class="ideas__tags--styles text-p-xSsmall">#tags1</span>
+                <span class="ideas__tags--styles text-p-xSsmall">#tags2</span>
+                <span class="ideas__tags--styles text-p-xSsmall">#tagsN</span>
             </div>
-            <div class="ideas__metrics-bot text-p-xsmall">
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path
-                        d="M0.625 7.5C0.625 7.5 3.125 2.5 7.5 2.5C11.875 2.5 14.375 7.5 14.375 7.5C14.375 7.5 11.875 12.5 7.5 12.5C3.125 12.5 0.625 7.5 0.625 7.5Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                    <path
-                        d="M7.5 9.375C8.53553 9.375 9.375 8.53553 9.375 7.5C9.375 6.46447 8.53553 5.625 7.5 5.625C6.46447 5.625 5.625 6.46447 5.625 7.5C5.625 8.53553 6.46447 9.375 7.5 9.375Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path
-                        d="M13.125 9.375C13.125 9.70652 12.9933 10.0245 12.7589 10.2589C12.5245 10.4933 12.2065 10.625 11.875 10.625H4.375L1.875 13.125V3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H11.875C12.2065 1.875 12.5245 2.0067 12.7589 2.24112C12.9933 2.47554 13.125 2.79348 13.125 3.125V9.375Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                    <g clip-path="url(#clip0_328_4152)">
+            <div class="ideas__metrics">
+                <div class="ideas__metrics-top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                        <path d="M8.27648 0.5L15.6428 11.4375H0.910156L8.27648 0.5Z" fill="#4E5979" />
+                    </svg>
+                    <span class="ideas__metrics-top-num">1024</span>
+                </div>
+                <div class="ideas__metrics-bot text-p-xsmall">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                         <path
-                            d="M9.91732 12.25V11.0833C9.91732 10.4645 9.67149 9.871 9.2339 9.43342C8.79632 8.99583 8.20282 8.75 7.58398 8.75H2.91732C2.29848 8.75 1.70499 8.99583 1.2674 9.43342C0.829817 9.871 0.583984 10.4645 0.583984 11.0833V12.25"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            d="M0.625 7.5C0.625 7.5 3.125 2.5 7.5 2.5C11.875 2.5 14.375 7.5 14.375 7.5C14.375 7.5 11.875 12.5 7.5 12.5C3.125 12.5 0.625 7.5 0.625 7.5Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
                         <path
-                            d="M5.24935 6.41667C6.53801 6.41667 7.58268 5.372 7.58268 4.08333C7.58268 2.79467 6.53801 1.75 5.24935 1.75C3.96068 1.75 2.91602 2.79467 2.91602 4.08333C2.91602 5.372 3.96068 6.41667 5.24935 6.41667Z"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            d="M7.5 9.375C8.53553 9.375 9.375 8.53553 9.375 7.5C9.375 6.46447 8.53553 5.625 7.5 5.625C6.46447 5.625 5.625 6.46447 5.625 7.5C5.625 8.53553 6.46447 9.375 7.5 9.375Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                         <path
-                            d="M13.416 12.2484V11.0817C13.4156 10.5647 13.2436 10.0625 12.9268 9.6539C12.6101 9.2453 12.1666 8.95347 11.666 8.82422"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                            d="M9.33398 1.82422C9.83589 1.95273 10.2808 2.24463 10.5984 2.6539C10.9161 3.06317 11.0886 3.56654 11.0886 4.08464C11.0886 4.60273 10.9161 5.1061 10.5984 5.51537C10.2808 5.92464 9.83589 6.21654 9.33398 6.34505"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_328_4152">
-                            <rect width="14" height="14" fill="white" />
-                        </clipPath>
-                    </defs>
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-
-            </div>
-        </div>
-    </a>
-     <a href="/postIdea" class="ideas__post">
-        <svg xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99" fill="none">
-            <rect width="99" height="99" rx="10" fill="#BFDB91" />
-            <path
-                d="M1 48.6316C1 48.6316 11.4007 51.7105 21.8011 48.6316C46.0397 41.456 38.2308 -4.1579 56.8462 7.87719C79.1481 22.2957 96.8798 21.5263 100 1"
-                transform="translate(-1, 2)" stroke="white" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round" />
-        </svg>
-        <div class="ideas__post-text text-p-small">
-            <h3 class="ideas__post-text-title">Idea name #31</h3>
-            <p class="ideas__post-text-descr">Main description, Main description, Main description, Main description,
-                Main description, Main description</p>
-        </div>
-        <div class="ideas__tags">
-            <span class="ideas__tags--styles text-p-xSsmall">#tags1</span>
-            <span class="ideas__tags--styles text-p-xSsmall">#tags2</span>
-            <span class="ideas__tags--styles text-p-xSsmall">#tagsN</span>
-        </div>
-        <div class="ideas__metrics">
-            <div class="ideas__metrics-top">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
-                    <path d="M8.27648 0.5L15.6428 11.4375H0.910156L8.27648 0.5Z" fill="#4E5979" />
-                </svg>
-                <span class="ideas__metrics-top-num">1024</span>
-            </div>
-            <div class="ideas__metrics-bot text-p-xsmall">
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path
-                        d="M0.625 7.5C0.625 7.5 3.125 2.5 7.5 2.5C11.875 2.5 14.375 7.5 14.375 7.5C14.375 7.5 11.875 12.5 7.5 12.5C3.125 12.5 0.625 7.5 0.625 7.5Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                    <path
-                        d="M7.5 9.375C8.53553 9.375 9.375 8.53553 9.375 7.5C9.375 6.46447 8.53553 5.625 7.5 5.625C6.46447 5.625 5.625 6.46447 5.625 7.5C5.625 8.53553 6.46447 9.375 7.5 9.375Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <path
-                        d="M13.125 9.375C13.125 9.70652 12.9933 10.0245 12.7589 10.2589C12.5245 10.4933 12.2065 10.625 11.875 10.625H4.375L1.875 13.125V3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H11.875C12.2065 1.875 12.5245 2.0067 12.7589 2.24112C12.9933 2.47554 13.125 2.79348 13.125 3.125V9.375Z"
-                        stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                    <g clip-path="url(#clip0_328_4152)">
-                        <path
-                            d="M9.91732 12.25V11.0833C9.91732 10.4645 9.67149 9.871 9.2339 9.43342C8.79632 8.99583 8.20282 8.75 7.58398 8.75H2.91732C2.29848 8.75 1.70499 8.99583 1.2674 9.43342C0.829817 9.871 0.583984 10.4645 0.583984 11.0833V12.25"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                            d="M5.24935 6.41667C6.53801 6.41667 7.58268 5.372 7.58268 4.08333C7.58268 2.79467 6.53801 1.75 5.24935 1.75C3.96068 1.75 2.91602 2.79467 2.91602 4.08333C2.91602 5.372 3.96068 6.41667 5.24935 6.41667Z"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                            d="M13.416 12.2484V11.0817C13.4156 10.5647 13.2436 10.0625 12.9268 9.6539C12.6101 9.2453 12.1666 8.95347 11.666 8.82422"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                            d="M9.33398 1.82422C9.83589 1.95273 10.2808 2.24463 10.5984 2.6539C10.9161 3.06317 11.0886 3.56654 11.0886 4.08464C11.0886 4.60273 10.9161 5.1061 10.5984 5.51537C10.2808 5.92464 9.83589 6.21654 9.33398 6.34505"
-                            stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_328_4152">
-                            <rect width="14" height="14" fill="white" />
-                        </clipPath>
-                    </defs>
-                </svg>
-                <span class="ideas__metrics-bot-num">1</span>
-
+                            d="M13.125 9.375C13.125 9.70652 12.9933 10.0245 12.7589 10.2589C12.5245 10.4933 12.2065 10.625 11.875 10.625H4.375L1.875 13.125V3.125C1.875 2.79348 2.0067 2.47554 2.24112 2.24112C2.47554 2.0067 2.79348 1.875 3.125 1.875H11.875C12.2065 1.875 12.5245 2.0067 12.7589 2.24112C12.9933 2.47554 13.125 2.79348 13.125 3.125V9.375Z"
+                            stroke="#808080" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <g clip-path="url(#clip0_328_4152)">
+                            <path
+                                d="M9.91732 12.25V11.0833C9.91732 10.4645 9.67149 9.871 9.2339 9.43342C8.79632 8.99583 8.20282 8.75 7.58398 8.75H2.91732C2.29848 8.75 1.70499 8.99583 1.2674 9.43342C0.829817 9.871 0.583984 10.4645 0.583984 11.0833V12.25"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M5.24935 6.41667C6.53801 6.41667 7.58268 5.372 7.58268 4.08333C7.58268 2.79467 6.53801 1.75 5.24935 1.75C3.96068 1.75 2.91602 2.79467 2.91602 4.08333C2.91602 5.372 3.96068 6.41667 5.24935 6.41667Z"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M13.416 12.2484V11.0817C13.4156 10.5647 13.2436 10.0625 12.9268 9.6539C12.6101 9.2453 12.1666 8.95347 11.666 8.82422"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M9.33398 1.82422C9.83589 1.95273 10.2808 2.24463 10.5984 2.6539C10.9161 3.06317 11.0886 3.56654 11.0886 4.08464C11.0886 4.60273 10.9161 5.1061 10.5984 5.51537C10.2808 5.92464 9.83589 6.21654 9.33398 6.34505"
+                                stroke="#808080" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_328_4152">
+                                <rect width="14" height="14" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span class="ideas__metrics-bot-num">1</span>
+                </div>
             </div>
         </div>
     </a>

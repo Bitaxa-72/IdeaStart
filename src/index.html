@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<load src="./html/base/head.html" title="home"/>
+<load src="./html/base/head.html" title="home" />
 
 <body class="body">
+    <div class="overlay" data-burger="overlay"></div>
     <div class="container main__container">
-        <aside class="sidebar">
-            <load src="./html/components/header.html"/>
+        <aside class="sidebar" data-burger="sidebar">
+            <load src="./html/components/header.html" />
         </aside>
         <main class="main">
-            <load src="./html/components/ideas.html"/>
+            <div class="burger" data-burger="btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14"
+                    fill="none">
+                    <path d="M1 1H19M1 7H19M1 13H19" stroke="white" stroke-width="3" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </div>
+            <load src="./html/components/ideas.html" />
         </main>
-        <load src="./html/components/footer.html"/>
+        <load src="./html/components/footer.html" />
     </div>
 </body>
 

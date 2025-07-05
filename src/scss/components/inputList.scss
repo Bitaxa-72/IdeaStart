@@ -1,0 +1,267 @@
+.inputList {
+  padding: 20px 20px;
+
+  @include mobile {
+    padding: 10px 10px;
+  }
+
+  &__top {
+    display: flex;
+
+    @include small-mobile {
+      flex-direction: column;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+
+    @include mini-desktop {
+      margin-left: 60px;
+    }
+
+    @include mobile {
+      margin-left: 65px;
+    }
+  }
+
+  &__title {
+    color: #272d37;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: -0.28px;
+
+    @include mobile {
+      font-size: 15px;
+    }
+  }
+
+  &__addDate {
+    display: flex;
+    color: #5f6d7e;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+
+    @include mobile {
+      font-size: 13px;
+      flex-direction: column;
+    }
+
+    @include small-mobile {
+      flex-direction: row;
+    }
+  }
+
+  &__status {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: #e9e9e9;
+    border-radius: 20px;
+    padding: 16px 51px 15px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: 24px;
+
+    @include mobile {
+      margin-right: 5px;
+      padding: 12px 4px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    @include small-mobile {
+      margin-right: auto;
+      margin-left: 65px;
+      margin-top: 5px;
+    }
+  }
+
+  &__form {
+    padding: 10px 0;
+    margin-top: 24px;
+    border-radius: 10px;
+    border: 2px dashed #9747ff;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    height: auto;
+  }
+
+  &__container {
+    max-width: 714px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__item {
+    width: 714px;
+    display: flex;
+    flex-direction: column;
+
+    @include tablet {
+      width: 570px;
+    }
+
+    @include small-tablet {
+      width: 460px;
+    }
+    @include mobile {
+      width: 270px;
+    }
+    @include small-mobile {
+      width: 240px;
+    }
+
+    &-label {
+      color: #1d2433;
+      font-weight: 600;
+      line-height: 20px;
+      letter-spacing: -0.28px;
+      margin-bottom: 10px;
+    }
+
+    &-input {
+      display: flex;
+      height: auto;
+      padding: 12px 12px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 12px;
+      align-self: stretch;
+      border-radius: 10px;
+      border: 1px solid var(--Primary-Gray-300, #d2d5da);
+      background: var(--Primary-Gray-50, #f9fafb);
+
+      &::placeholder {
+        color: #6d7280;
+        font-size: 16px;
+      }
+    }
+  }
+
+  &__imgGallery {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+
+    &-label {
+      color: #1d2433;
+      font-weight: 600;
+      line-height: 20px;
+      letter-spacing: -0.28px;
+      margin-bottom: 20px;
+    }
+  }
+  &__bot {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 99px;
+  }
+  &__SaveDraft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 50px;
+    border: 1px solid #d2d5da;
+    border-radius: 10px;
+    transition: all 0.3s;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  &__Publish {
+    background-color: #8ef0a0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 50px;
+    transition: all 0.3s;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+.imgGallery__container {
+  width: 714px;
+
+  @include tablet {
+    width: 570px;
+  }
+
+  @include small-tablet {
+    width: 460px;
+  }
+
+  @include mobile {
+    width: 330px;
+  }
+
+  @include mobile {
+    width: 270px;
+  }
+
+  @include small-mobile {
+    width: 240px;
+  }
+}
+
+.upload-box {
+  cursor: pointer;
+  margin-top: 15px;
+  min-height: 120px;
+  height: auto;
+  border: 2px dashed #d2d5da;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+
+  &:hover {
+    border: 2px dashed #838282;
+  }
+}
+
+.upload-placeholder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-icon {
+  color: #6d7280;
+  font-size: 30px;
+}
+
+.upload-text {
+  color: #6d7280;
+  text-align: center;
+}
+
+.image-preview-list img {
+  width: 40px;
+  height: 40px;
+}
+
+.signInInput {
+  @include small-mobile {
+    transform: translateY(-95px);
+    margin-left: auto;
+  }
+}

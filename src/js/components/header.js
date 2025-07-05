@@ -23,3 +23,4 @@ export const dropDownMenu = () => {
         dropDownMenuList.classList.toggle('dropdown--open');
     })
 };
+
