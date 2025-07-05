@@ -12,6 +12,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: './src/index.html',
+        post: './src/postIdea.html',
+        new: './src/newIdea.html',
       },
     },
   },
