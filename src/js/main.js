@@ -7,7 +7,8 @@ import { tagSet } from './components/input';
 import { imageGallery } from './components/input';
 import { swiperIdea } from './components/slider';
 import { rateStars } from './components/rate';
-
+import { switchMenu } from './components/modal';
+import { modalWindow } from './components/modal';
 
 dropDownIdeas();
 dropDownMenu();
@@ -17,3 +18,5 @@ imageGallery();
 swiperIdea();
 rateStars();
 useBurger();    
+switchMenu();
+modalWindow();

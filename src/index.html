@@ -3,6 +3,64 @@
 <load src="./html/base/head.html" title="home" />
 
 <body class="body">
+    <div class="modal">
+        <div class="modal__window">
+            <a class="modal__cancel" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 26 26" fill="none">
+                    <path
+                        d="M16.067 8.99502C16.1386 8.92587 16.1958 8.84314 16.2352 8.75165C16.2745 8.66017 16.2952 8.56176 16.2962 8.46218C16.2971 8.3626 16.2781 8.26383 16.2405 8.17164C16.2028 8.07945 16.1472 7.99568 16.0768 7.92523C16.0064 7.85478 15.9227 7.79905 15.8305 7.7613C15.7384 7.72354 15.6396 7.70452 15.54 7.70534C15.4404 7.70616 15.342 7.7268 15.2505 7.76606C15.159 7.80532 15.0762 7.86242 15.007 7.93402L12.001 10.939L8.99597 7.93402C8.92731 7.86033 8.84451 7.80123 8.75251 7.76024C8.66051 7.71925 8.5612 7.69721 8.4605 7.69543C8.35979 7.69365 8.25976 7.71218 8.16638 7.7499C8.07299 7.78762 7.98815 7.84376 7.91694 7.91498C7.84572 7.9862 7.78957 8.07103 7.75185 8.16442C7.71413 8.25781 7.69561 8.35784 7.69738 8.45854C7.69916 8.55925 7.7212 8.65856 7.76219 8.75056C7.80319 8.84256 7.86229 8.92536 7.93597 8.99402L10.939 12L7.93397 15.005C7.80149 15.1472 7.72937 15.3352 7.7328 15.5295C7.73623 15.7238 7.81494 15.9092 7.95235 16.0466C8.08977 16.1841 8.27515 16.2628 8.46945 16.2662C8.66375 16.2696 8.8518 16.1975 8.99397 16.065L12.001 13.06L15.006 16.066C15.1481 16.1985 15.3362 16.2706 15.5305 16.2672C15.7248 16.2638 15.9102 16.1851 16.0476 16.0476C16.185 15.9102 16.2637 15.7248 16.2671 15.5305C16.2706 15.3362 16.1985 15.1482 16.066 15.006L13.063 12L16.067 8.99502Z"
+                        fill="black" />
+                </svg>
+            </a>
+            <h3 class="modal__title">Welcom to IdeaStart</h3>
+            <div class="modal__btn">
+                <button data-menu="signIn" class="modal__signIn modal__signIn--active">Sign In</button>
+                <button data-menu="signUp" class="modal__signIn">Sign Up</button>
+            </div>
+            <div data-window="firstWindow" class="modal__switchMenu modal__switchMenu--active">
+                <form class="modal__form">
+                    <div class="modal__info">
+                        <label class="modal__label" for="email">Email</label>
+                        <input id="email" class="modal__input" type="email" placeholder="Enter your Email">
+                    </div>
+                    <div class="modal__info">
+                        <label class="modal__label" for="Password">Password</label>
+                        <input id="Password" class="modal__input" type="email" placeholder="Enter your Password">
+                    </div>
+                </form>
+                <button class="modal__action">Sign In</button>
+            </div>
+            <div data-window="secondWindow" class="modal__switchMenu">
+                <form class="modal__form">
+                    <div class="modal__info">
+                        <label class="modal__label" for="name">Full Name</label>
+                        <input id="name" class="modal__input" type="text" placeholder="Enter your full name">
+                    </div>
+                    <div class="modal__info">
+                        <label class="modal__label" for="email">Email</label>
+                        <input id="email" class="modal__input" type="email" placeholder="Enter your Email">
+                    </div>
+                    <div class="modal__info">
+                        <label class="modal__label" for="Password">Password</label>
+                        <input id="Password" class="modal__input" type="email" placeholder="Enter your Password">
+                    </div>
+                </form>
+                <button class="modal__action">Create Account</button>
+            </div>
+            <span class="modal__span">OR CONTINUE WITH</span>
+            <button class="modal__google">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M17 3.5H3C2.73478 3.5 2.48043 3.60536 2.29289 3.79289C2.10536 3.98043 2 4.23478 2 4.5V15.5C2 15.7652 2.10536 16.0196 2.29289 16.2071C2.48043 16.3946 2.73478 16.5 3 16.5H17C17.2652 16.5 17.5196 16.3946 17.7071 16.2071C17.8946 16.0196 18 15.7652 18 15.5V4.5C18 4.23478 17.8946 3.98043 17.7071 3.79289C17.5196 3.60536 17.2652 3.5 17 3.5ZM4 14.5V5.5H16V14.5H4Z"
+                        fill="black" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M17.648 5.261L10.603 11.261C10.4214 11.4156 10.1904 11.5002 9.9518 11.4995C9.71322 11.4988 9.48276 11.4128 9.30204 11.257L2.34704 5.257C1.64504 4.652 2.07304 3.5 3.00004 3.5H17C17.93 3.5 18.356 4.658 17.648 5.261ZM5.69004 5.5L9.96004 9.183L14.282 5.5H5.69004Z"
+                        fill="black" />
+                </svg>
+                Continue with Google
+            </button>
+        </div>
+    </div>
     <div class="overlay" data-burger="overlay"></div>
     <div class="container main__container">
         <aside class="sidebar" data-burger="sidebar">
@@ -10,8 +68,7 @@
         </aside>
         <main class="main">
             <div class="burger" data-burger="btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14"
-                    fill="none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">
                     <path d="M1 1H19M1 7H19M1 13H19" stroke="white" stroke-width="3" stroke-linecap="round"
                         stroke-linejoin="round" />
                 </svg>
